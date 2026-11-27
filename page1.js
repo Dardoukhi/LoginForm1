@@ -19,3 +19,6 @@ btnPopup.addEventListener('click', () => {
 iconClose.addEventListener('click', () => {
     wrapper.classList.remove('active-popup');
 });
+
+// Show login form automatically when page loads
+wrapper.classList.add('active-popup');
